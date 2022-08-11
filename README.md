@@ -30,6 +30,10 @@ Está configurado com os seguintes serviços:
   - mysql - porta 3306
   - adminer - porta 8080
 
+> Importante ajustar as linhas MYSQL_DATABASE e MYSQL_ROOT_PASSWORD do docker-compose.yml para refletir com o que você está fazendo
+>
+> A conexão ao MySQL deve ser feita utilizando o nome do conteiner (*mysql*) e não (*localhost*)
+
 ## Executar
 Após executar esse comando deve liberar ao endereço localhost:8000
 
